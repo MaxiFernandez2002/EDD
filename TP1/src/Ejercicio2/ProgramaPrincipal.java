@@ -6,6 +6,7 @@ import Exceptions.FractionException;
 
 public class ProgramaPrincipal {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		try {
 			System.out.println("Ingrese el valor para el numerador");
@@ -13,7 +14,7 @@ public class ProgramaPrincipal {
 			System.out.println("Ingrese el valor para el denominador");
 			Scanner den = new Scanner(System.in);
 			int intNum = num.nextInt();
-			int intDen= num.nextInt();
+			int intDen= den.nextInt();
 			
 			Fraction f = new Fraction(intNum, intDen);
 			
