@@ -16,6 +16,42 @@ public class ColeccionConArreglo<E> implements Coleccion<E> {
 	}
 	
 	public void eliminar (E e){
+		boolean eliminado = false;
+		int cursor = 0;
 		
+		while (cursor <  datos.length && !eliminado) {
+			if (e.equals(datos[cursor])) {
+				arrastrar(cursor);
+				eliminado = true;
+				cant--;
+			}
+			cursor++;
+		}
+	}
+	
+	public int cantidadElementos() {
+		return cant;
+	}
+	
+	public boolean pertenece(E e) {
+		boolean pertenece = false;
+		int cursor = 0;
+		while (cursor < datos.length && !pertenece) {
+			if (e.equals(datos[cursor])) {
+				pertenece = true;
+			}
+			cursor++;
+		}
+		return pertenece;
+	}
+	
+	private void arrastrar(int cursor) {
+		if(datos[cursor+1] != null) {
+			datos[cursor] = datos[cursor+1];
+			arrastrar(cursor+1);
+		}
+		else {
+			datos[cursor] = null;
+		}
 	}
 }
