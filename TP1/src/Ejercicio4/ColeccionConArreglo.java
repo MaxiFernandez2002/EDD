@@ -1,5 +1,7 @@
 package Ejercicio4;
 
+import Exceptions.ElementoInvalidoException;
+
 public class ColeccionConArreglo<E> implements Coleccion<E> {
 	protected int cant; 	// cantidad de elementos almacenados
 	protected E[] datos; 	// arreglo de elementos
@@ -15,17 +17,21 @@ public class ColeccionConArreglo<E> implements Coleccion<E> {
 		cant++;
 	}
 	
-	public void eliminar (E e){
+	public void eliminar (E e) throws ElementoInvalidoException{
 		boolean eliminado = false;
 		int cursor = 0;
-		
-		while (cursor <  datos.length && !eliminado) {
-			if (e.equals(datos[cursor])) {
-				arrastrar(cursor);
-				eliminado = true;
-				cant--;
+		if (pertenece(e)) {
+			while (cursor <  datos.length && !eliminado) {
+				if (e.equals(datos[cursor])) {
+					arrastrar(cursor);
+					eliminado = true;
+					cant--;
+				}
+				cursor++;
 			}
-			cursor++;
+		}
+		else {
+			throw new ElementoInvalidoException("El elemento no se encuentra en el arreglo");
 		}
 	}
 	
