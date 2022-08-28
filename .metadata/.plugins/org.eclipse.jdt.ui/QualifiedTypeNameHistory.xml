@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Exceptions.EmptyStackException"/>
+    <fullyQualifiedTypeName name="Exceptions.EmptyQueueException"/>
+    <fullyQualifiedTypeName name="TDAPila.Nodo"/>
+    <fullyQualifiedTypeName name="Exceptions.EmptyListException"/>
+    <fullyQualifiedTypeName name="Exceptions.BoundaryViolationException"/>
+    <fullyQualifiedTypeName name="TDALista.DoubleLinkedList"/>
+    <fullyQualifiedTypeName name="javax.swing.text.Position"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="TDALista.PositionList"/>
+    <fullyQualifiedTypeName name="Exceptions.InvalidPositionException"/>
+</qualifiedTypeNameHistroy>
