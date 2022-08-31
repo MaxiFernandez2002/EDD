@@ -10,4 +10,5 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="TDALista.PositionList"/>
     <fullyQualifiedTypeName name="Exceptions.InvalidPositionException"/>
+    <fullyQualifiedTypeName name="PROYECTOEDD2022.Programa.Logica"/>
 </qualifiedTypeNameHistroy>

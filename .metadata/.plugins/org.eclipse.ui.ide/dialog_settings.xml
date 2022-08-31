@@ -8,6 +8,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\arroy\Downloads\EDD\PKC page\App\Proyecto-ED-2022- 126094 - 126078\Proyecto-ED-2022- 126094 - 126078"/>
+			<item value="C:\Users\arroy\Downloads\EDD\PKC page\App\Proyecto-ED-2022- 126094 - 126078\Proyecto-ED-2022- 126094 - 126078\Fuentes"/>
 			<item value="C:\Users\arroy\TP12"/>
 			<item value="F:\App Choele Turismo\Fotos negocios\Gastronomia\Poker Kings Club_files\Zeus\src\src\PROYECTOEDD2022"/>
 		</list>
@@ -19,6 +21,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\arroy\Downloads\EDD\PKC page\App\Proyecto-ED-2022- 126094 - 126078"/>
 			<item value="C:\Users\arroy\Laboratorio1"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
