@@ -1,10 +1,10 @@
-package PROYECTOEDD2022.TDAs.TDAPila;
+package TDAPila;
 
-import PROYECTOEDD2022.Exceptions.EmptyStackException;
+import Exceptions.EmptyStackException;
 
 /**
  * Interface Stack
- * @author Catedra de Estructuras de Datos, Departamento de Cs. e Ing. de la Computacion, UNS.
+ * @author C�tedra de Estructuras de Datos, Departamento de Cs. e Ing. de la Computaci�n, UNS.
  */
 
 public interface Stack<E> {
@@ -16,15 +16,15 @@ public interface Stack<E> {
 	public int size();
 
 	/**
-	 * Consulta si la pila esta vacia.
-	 * @return Verdadero si la pila esta vacia, falso en caso contrario.
+	 * Consulta si la pila est� vac�a.
+	 * @return Verdadero si la pila est� vac�a, falso en caso contrario.
 	 */
 	public boolean isEmpty();
 
 	/**
 	 * Examina el elemento que se encuentra en el tope de la pila.
 	 * @return Elemento que se encuentra en el tope de la pila.
-	 * @throws EmptyStackException si la pila esta vacia. 
+	 * @throws EmptyStackException si la pila est� vac�a. 
 	 */
 	public E top()throws EmptyStackException;
 
@@ -37,7 +37,7 @@ public interface Stack<E> {
 	/**
 	 * Remueve el elemento que se encuentra en el tope de la pila.
 	 * @return Elemento removido.
-	 * @throws EmptyStackException si la pila esta vacia. 
+	 * @throws EmptyStackException si la pila est� vac�a. 
 	 */
 	public E pop() throws EmptyStackException;
 }
